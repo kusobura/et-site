@@ -1,0 +1,11 @@
+﻿/* スマホ用 */
+
+
+/* タブレット用 */
+@media screen and (min-width: 768px) {
+}
+
+
+/* PC用 */
+@media screen and (min-width: 1024px) {
+}

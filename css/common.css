@@ -1,0 +1,64 @@
+﻿/* スマホ用 */
+header {
+    background-color: beige;
+    position: sticky;
+    top: 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+main {
+
+}
+footer {
+    background-color : blue ;
+}
+button {
+    cursor: pointer;
+}
+
+
+/* タブレット用 */
+@media screen and (min-width: 768px) {
+    header {
+
+    }
+
+    main {
+
+    }
+
+    footer {
+
+    }
+    button {
+        cursor: pointer;
+    }
+}
+
+/* PC用 */
+@media screen and (min-width: 1024px) {
+
+    header {
+        background-color: beige;
+        position: sticky;
+        top: 0;
+        color: black;
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    main {
+
+    }
+
+    footer {
+        background-color: blue;
+    }
+
+    button {
+        cursor: pointer;
+    }
+}

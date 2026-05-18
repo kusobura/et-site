@@ -1,0 +1,40 @@
+﻿/* スマホ用 */
+.index-1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/index1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.index-2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/index2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* タブレット用 */
+@media screen and (min-width: 768px) {
+
+}
+
+
+/* PC用 */
+@media screen and (min-width: 1024px) {
+    .index-1 {
+        position: relative;
+        width: 100%;
+        background-image: url("../images/index1.png");
+    }
+
+    .index-2 {
+        position: relative;
+        width: 100%;
+        background-image: url("../images/index2.png");
+    }
+}

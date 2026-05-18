@@ -1,0 +1,167 @@
+﻿/* スマホ用 */
+.header-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.header-logo {
+    position: absolute;
+    top : 0px;
+    left:3px;
+    cursor: pointer;
+    margin-right: 0px;
+    width:120px;
+    font-size: 30px;
+}
+
+.header-item-area {
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    display: none;
+}
+
+.header-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: block;
+}
+
+    .header-item a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+        .header-item a:hover {
+            background: #f5f5f5;
+        }
+
+
+.header-item-btn {
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px
+}
+    .header-item-btn span {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background: #222;
+        margin: 0 auto;
+    }
+
+.header-btn {
+    background-color: black;
+    color: white;
+    transform: skew(-10deg);
+    width: 100px;
+    text-align: left;
+}
+
+    .header-btn span {
+        display: inline-block;
+        transform: skew(10deg);
+    }
+
+    .header-btn::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 9px;
+        width: 10px;
+        height: 100%;
+        background-color: white;
+    }
+
+/* タブレット用 */
+@media screen and (min-width: 768px) {
+    .header-home {
+        cursor: pointer;
+    }
+}
+
+
+/* PC用 */
+@media screen and (min-width: 1024px) {
+
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: relative;
+    }
+
+    .header-logo {
+        position: absolute;
+        top: 0px;
+        left: 3px;
+        cursor: pointer;
+        margin-right: 0px;
+        width: 120px;
+        font-size: 30px;
+    }
+
+    .header-item-area {
+        display: flex;
+        flex-direction: row;
+        width: 73%;
+        position: relative;
+        position: absolute;
+        top: 10px;
+        left: 30%;
+    }
+
+    .header-item {
+        cursor: pointer;
+        margin-right: 40px;
+        display: block;
+    }
+
+    .header-item-btn {
+        display: none;
+    }
+
+    .header-btn {
+        background-color: black;
+        color: white;
+        transform: skew(-10deg);
+        width: 130px;
+        height: 40px;
+        text-align: left;
+        margin-left: 200px;
+        position: absolute;
+        top: 0px;
+        right: 100px;
+    }
+
+        .header-btn span {
+            display: inline-block;
+            transform: skew(10deg);
+        }
+
+        .header-btn::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 9px;
+            width: 10px;
+            height: 100%;
+            background-color: white;
+        }
+
+
+}
+
+

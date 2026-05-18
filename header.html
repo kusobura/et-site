@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/header.js"></script>
+</head>
+<body>
+    <div class="header-container">
+        <div class="header-logo">E&Tロゴ</div>
+        <div class="header-item-area" id="toggleItem">
+            <div onclick="home()" class="header-item">ホーム</div>
+            <div class="header-item">会社について</div>
+            <div class="header-item">事業内容</div>
+            <div class="header-item">採用情報</div>
+            <button class="header-btn"><span>お問合せ</span></button>
+        </div>
+        <button class="header-item-btn" onclick="toggleItem()" id="headerItemBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</body>
+</html>
