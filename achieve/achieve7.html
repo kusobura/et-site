@@ -5,13 +5,72 @@
     <title></title>
     <link rel="stylesheet" href="../css/achievements.css">
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="../js/common.js"></script>
 </head>
 <body>
     <!-- ヘッダー -->
     <header id="achieveHeader"></header>
-    <div>事業⑦</div>
+    <main>
+        <h1 class="achieve-text1">取引先配布システム</h1>
+        <div class="achieve-beside-line1"></div>
+        <div class="achieve-detailarea">
+            <div class="achieve-vertical-line1"></div>
+            <div class="achive-area1">
+                <div class="achive-area1-item1">
+                    プロジェクト
+                    <span class="achive-area1-span"><br></span>概要及び特徴
+                </div>
+                <div class="achive-area1-item2">
+                    大手空調メータ向けに、取引先への図面成果物を配布する仕組みを構築。
+                    <br>グローバル展開および業務プロセスの統一と従来システムからのセキュリティ強化を目的に
+                    <br>AWSベースのDMZにて、社内外ユーザの利用を想定したWEBシステムを構築。
+                    <br>
+                    <br>１.成果物の授受を全てトレース可能
+                    <br>社内外の担当者同士のデータ授受について、全ての記録を残すように考慮した。
+                    <br>引先からの図面成果物要求に対して、いつ、誰が、何を、どこに、どれだけ提供したのか
+                    <br>データやファイルについて、やり取りをトレース可能。
+                    <br>
+                    <br>２.セキュリティ強化
+                    <br>DMZ（非武装地帯）にサーバを構築し、社内のネットワークから隔離をしつつシステム利用に際して、
+                    <br>社外取引先がインフラ環境を整備する負担を無くした。
+                    <br>多要素認証の導入や、EDRによるシステム攻撃時の隔離、なりすましによる大量ダウンロード時の
+                    <br>本人確認の徹底など、セキュリティ強化を実施
+                    <br>
+                    <br>３.プロジェクト成果
+                    <br>海外展開を見据えたトレーサビリティの向上（情報漏洩対策）
+                    <br>社外取引先のシステム利用制約（インフラ整備）撤廃、リードタイム短縮
+                </div>
+            </div>
+            <div class="achive-area2">
+                <div class="achive-area2-item1">主たる業務内容</div>
+                <div class="achive-area2-item2">
+                    ・要件定義、基本設計、詳細設計、PG製造、テスト、運用保守に参画
+                    <br>・AWSサービス（EC2、RDS、SES、S3、Cognito）を活用し、WEBアプリを構築
+                    <br>社内外の担当者間にて行われる図面成果物の要求、配布をスレッド形式で管理し、セキュアな環境下で
+                    <br>データ、ファイル授受を実現
+                    <br>・リリース以降もアジャイルで継続改善を実施
+                </div>
+            </div>
+            <div class="achive-area3">
+                <div class="achive-area3-item1">システム開発規模</div>
+                <div class="achive-area3-item2">
+                    サーバ台数；4台、画面数：約20件、バッチ：約10本
+                    <br>利用ユーザ数；約1000人（社内外）、データ件数；約5000万件、稼働状況：全世界24H
+                </div>
+            </div>
+            <div class="achive-area4">
+                <div class="achive-area4-item1">使用言語・ツール</div>
+                <div class="achive-area4-item2">
+                    AWSサービス（EC2,RDS,SES,S3,IAMロール,ALB,Cognito）　
+                    <br>java　javaScript　.Net（VB,C#）
+                    <br>Teamcenter　NX　SolidEdge
+                    <br>Oracle　IIS　Tomcat
+                </div>
+            </div>
+        </div>
+    </main>
     <!-- フッター -->
     <footer id="achieveFooter"></footer>
 </body>
