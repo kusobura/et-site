@@ -105,6 +105,9 @@
     font-weight: 700;
 }
 
+    .index-1-text3 span {
+        display: block;
+    }
 
 .index-1-chr{
     color: black;
@@ -155,19 +158,22 @@
     .index-2-textarea1 p {
         color: white;
         font-size: 17px;
+        font-weight: 800;
+        margin-top: 50%;
     }
 
-    .index-2 button {
-        position: absolute;
-        right: 0px;
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        font-weight: 800;
-        font-size: 17px;
-        width: 210px;
-        height: 50px;
-        text-align: left;
-    }
+.index-2 button {
+    position: absolute;
+    right: 0px;
+    top: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 800;
+    font-size: 17px;
+    width: 210px;
+    height: 50px;
+    text-align: left;
+}
 
     .index-2-button::after {
         position: absolute;
@@ -179,6 +185,10 @@
         transform: translateY(-50%);
         pointer-events: none;
     }
+
+.index-2-sp-br {
+    display: block;
+}
 
 /* 会社概要 */
 
@@ -212,6 +222,7 @@
     position: absolute;
     right: 0;
     width: 95%;
+    height: 75%;
 }
 
 .index-3-button1 {
@@ -223,7 +234,6 @@
     color: white;
     font-weight: 800;
     font-size: 17px;
-    width: 210px;
     height: 50px;
     text-align: left;
 }
@@ -277,6 +287,7 @@
     position: absolute;
     left: 0;
     width: 95%;
+    height: 75%;
 }
 
 .index-3-text3 {
@@ -390,7 +401,6 @@
     color: white;
     font-weight: 800;
     font-size: 17px;
-    width: 210px;
     height: 50px;
     text-align: left;
 }
@@ -1395,7 +1405,7 @@
         position: absolute;
         top: 40px;
         left: 10%;
-        width: 91%;
+        width: 89%;
         height: 80%;
         border: 1px solid #000;
         border-radius: 50%;
@@ -1447,8 +1457,8 @@
 
     .index-1-textarea1 {
         background-color: black;
-        height: 150px;
-        width: 145%;
+        height: 220px;
+        width: 103.1%;
         display: flex;
         flex-direction: row;
         transform: translateX(-55px);
@@ -1462,19 +1472,19 @@
         opacity: 0.7;
         color: white;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .index-1-text2 {
-        font-size: 70px;
-        margin-top: 20px;
+        font-size: 130px;
+        margin-top: 10px;
         margin-right: 10px;
         font-weight: 900;
     }
 
     .index-1-text3 {
-        font-size: 45px;
-        margin-top: 40px;
+        font-size: 70px;
+        margin-top: 60px;
         margin-left: 15px;
         font-weight: 700;
     }
@@ -1486,7 +1496,7 @@
 
         .index-1-chr {
             color: black;
-            font-size: 35px;
+            font-size: 50px;
         }
 
     .index-1-vertical-line1 {
@@ -1525,13 +1535,13 @@
         .index-2 button {
             position: absolute;
             right: 30%;
-            top: 80%;
+            top: 75%;
             background-color: rgba(0, 0, 0, 0.5);
             color: white;
             font-weight: 800;
             font-size: 17px;
-            width: 210px;
-            height: 50px;
+            width: 230px;
+            height: 70px;
             text-align: left;
         }
 
@@ -1556,7 +1566,7 @@
     }
         .index-2-textarea1 p {
             color: white;
-            font-size: 17px;
+            font-size: 30px;
             font-weight: 800;
             margin-top: 50%;
         }
@@ -1598,21 +1608,21 @@
     .index-3-png1 {
         position: absolute;
         right: 10%;
-        width: 506px;
-        height: 85%;
+        width: 715px;
+        height: 90%;
     }
 
     .index-3-button1 {
         position: absolute;
-        top: 75%;
+        top: 81%;
         right: 10%;
         width: 210px;
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         font-weight: 800;
         font-size: 17px;
-        width: 210px;
-        height: 50px;
+        width: 260px;
+        height: 80px;
         text-align: left;
     }
 
@@ -1639,14 +1649,14 @@
 
     .index-3-button2 {
         position: absolute;
-        top: 75%;
+        top: 81%;
         left: 30%;
-        width: 210px;
+        width: 260px;
+        height: 80px;
         background-color: rgba(0, 0, 0, 0.5);
         color: white;
         font-weight: 800;
         font-size: 17px;
-        height: 50px;
         text-align: left;
     }
 
@@ -1664,8 +1674,8 @@
     .index-3-png2 {
         position: absolute;
         left: 30%;
-        width: 506px;
-        height: 85%;
+        width: 715px;
+        height: 90%;
     }
 
     .index-3-text3 {
@@ -1674,8 +1684,9 @@
         transform: rotate(90deg);
         display: inline-block;
         position: absolute;
-        top: 75px;
-        right: -21%;
+        top: 135px;
+        right: 24%;
+        font-size: 45px;
     }
 
 
@@ -1813,7 +1824,7 @@
         display: inline-block;
         position: absolute;
         top: 70px;
-        right: -25%;
+        right: 24%;
     }
 
     .index-4-vertical-line1 {
@@ -1864,13 +1875,18 @@
         margin-left: 5%;
     }
 
+    .index-5-main {
+        display: flex;
+        flex-direction: column;
+    }
+
     .index-5-new {
         position: relative;
         background-color: rgba(0, 0, 0, 0.8);
         color: white;
-        margin-top: 125px;
-        margin-left: 40px;
         height: 430px;
+        margin-left: 0;
+        margin-top: 0;
     }
 
     .index-5-text2 {
@@ -1920,7 +1936,6 @@
         background-color: rgba(0, 0, 0, 0.8);
         color: white;
         margin-top: 125px;
-        margin-left: 85px;
         height: 430px;
     }
 
